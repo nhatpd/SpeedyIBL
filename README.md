@@ -1,7 +1,6 @@
 A Python library to create single or multi Instance-based Learning (IBL) agents that are built based on Instance Based Learning Theory (IBLT) <sup id="a1">[1](#f1)</sup>
 
-* [**Install speedy IBL:**](#Install-speedy-IBL)
-* [**Import Libraries**](#Import-Libraries)
+* [**Installation of speedy IBL**](#Installation-of-speedy-IBL)
 * [**Illustration of IBL for Binary Choice Task**](#Illustration-of-IBL-for-Binary-Choice-Task)
 * [**Illustration of IBL for Insider Attack Game**](#Illustration-of-IBL-for-Insider-Attack-Game)
 * [**Build an IBL Agent with an Equal Delay Feedback Mechanism**](#Build-an-IBL-Agent-with-an-Equal-Delay-Feedback-Mechanism)
@@ -17,7 +16,7 @@ A Python library to create single or multi Instance-based Learning (IBL) agents 
 <b id="f2">[2]</b> Thuy Ngoc Nguyen, Duy Nhat Phan, Cleotilde Gonzalez (2021), [SpeedyIBL: A Solution to the Curse of Exponential Growth in Instance-Based Learning Models of Decisions from Experience](https://pypi.org/project/speedyibl/)
 
 
-# **Install speedy IBL:**
+## **Installation of speedy IBL**
 
 
 ```python
@@ -31,7 +30,7 @@ A Python library to create single or multi Instance-based Learning (IBL) agents 
     Requirement already satisfied: setuptools>=42 in /usr/local/lib/python3.7/dist-packages (from speedyibl) (57.4.0)
 
 
-# **Import Libraries**
+## **Import libraries**
 
 
 ```python
@@ -41,7 +40,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 ```
 
-# **Illustration of IBL for Binary Choice Task**
+## **Illustration of IBL for Binary Choice Task**
 ### Task description
 
 In each episode, the agent is required to choose one of two options: Safe or Risky. One option is Safe and it yields a fixed medium outcome (i.e., 3) every time it is chosen. The other option is Risky, and it yields a high outcome (4) with some probability 0.8, and a low outcome (0) with the complementary probability 0.2.
@@ -89,7 +88,7 @@ plt.show()
 ![png](./images/output_8_0.png)
 
 
-# **Illustration of IBL for Insider Attack Game**
+## **Illustration of IBL for Insider Attack Game**
 ### Task description
 
 In this game, players take the role of the attacker and their goal is to score points by “hacking” computers to steal proprietary data.
@@ -274,7 +273,7 @@ plt.legend()
 ![png](./images/output_12_1.png)
 
 
-# **Build an IBL Agent with an Equal Delay Feedback Mechanism**
+## **Build an IBL Agent with an Equal Delay Feedback Mechanism**
 
 This model will be employed to perform the tasks following
 
@@ -333,7 +332,7 @@ class AgentIBL(Agent):
 		self.equal_delay_feedback(reward, self.episode_history)
 ```
 
-# **Illustration of IBL for Cooperative Navigation**
+## **Illustration of IBL for Cooperative Navigation**
 ### Task description
 
 In this task, three agents must cooperate through physical actions to reach a set of three landmarks (3 green landmarks). The agents can observe the relative positions of other agents and landmarks, and are collectively rewarded based on the number of the landmarks that they cover. For instance, if all the agents cover only one landmark, they receive one point. By contrast, if they all can cover the three landmarks, they got the maximum of three points. Simply put, the agents want to cover all of the landmarks, so they need to learn to coordinate the landmark they must cover.
@@ -444,7 +443,7 @@ plt.legend()
 ![png](./images/output_21_1.png)
 
 
-# **Illustration of IBL for Minimap**
+## **Illustration of IBL for Minimap**
 ### Task description
 
 The task is inspired by a search and rescue scenario, which involves an agent being placed in a building with multiple rooms and tasked with rescuing victims. 
@@ -544,7 +543,7 @@ plt.legend()
 ![png](./images/output_28_1.png)
 
 
-# **Illustration of IBL for Firemen Task**
+## **Illustration of IBL for Firemen Task**
 ### Task description
 
 The task replicates the coordination in firefighting service wherein agents need to pick up matching items for extinguishing fire. The task is simulated in a gridworld of size $11\times 14$. Two agents located within the gridworld are tasked with locating an equipment pickup area and choosing one of the firefight items. Afterwards, they need to navigate and find the location of fire (F) to extinguish it. The task is fully cooperative as both agents are required to extinguish one fire.
@@ -658,7 +657,7 @@ plt.legend()
 ![png](./images/output_35_1.png)
 
 
-# **Illustration of IBL for Tasks from GymAI**
+## **Illustration of IBL for Tasks from GymAI**
 
 Install and call the CartPole Task
 
