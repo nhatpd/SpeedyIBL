@@ -2,6 +2,13 @@ A Python library to create single or multi Instance-based Learning (IBL) agents 
 
 * [**Install speedy IBL:**](#Install-speedy-IBL)
 * [**Import Libraries**](#Import-Libraries)
+* [**Illustration of IBL for Binary Choice Task**](#Illustration-of-IBL-for-Binary-Choice Task)
+* [**Illustration of IBL for Insider Attack Game**](#Illustration-of-IBL-for-Insider-Attack-Game)
+* [**Build an IBL Agent with an Equal Delay Feedback Mechanism**](#Build-an-IBL-Agent-with-an-Equal-Delay-Feedback-Mechanism)
+* [**Illustration of IBL for Cooperative Navigation**](#Illustration-of-IBL-for-Cooperative-Navigation)
+* [**Illustration of IBL for Minimap**](#Illustration-of-IBL-for-Minimap)
+* [**Illustration of IBL for Firemen Task**](#Illustration-of-IBL-for-Firemen-Task)
+* [**Illustration of IBL for Tasks from GymAI**](#Illustration-of-IBL-for-Tasks-from-GymAI)
 
 
 ## References
