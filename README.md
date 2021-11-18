@@ -76,7 +76,7 @@ plt.show()
 ```
 
 
-![png](output_8_0.png)
+![png](./images/output_8_0.png)
 
 
 # **Illustration of IBL for Insider Attack Game**
@@ -257,7 +257,7 @@ plt.legend()
 
 
 
-![png](output_12_1.png)
+![png](./images/output_12_1.png)
 
 
 # **Build an IBL Agent with an Equal Delay Feedback Mechanism**
@@ -323,6 +323,10 @@ class AgentIBL(Agent):
 ### Task description
 
 In this task, three agents must cooperate through physical actions to reach a set of three landmarks (3 green landmarks). The agents can observe the relative positions of other agents and landmarks, and are collectively rewarded based on the number of the landmarks that they cover. For instance, if all the agents cover only one landmark, they receive one point. By contrast, if they all can cover the three landmarks, they got the maximum of three points. Simply put, the agents want to cover all of the landmarks, so they need to learn to coordinate the landmark they must cover.
+
+<p align="center">
+<img src="./images/navigation.gif" >
+</p>
 
 Install and call the cooperative navigation environment
 
@@ -423,7 +427,7 @@ plt.legend()
 
 
 
-![png](output_21_1.png)
+![png](./images/output_21_1.png)
 
 
 # **Illustration of IBL for Minimap**
@@ -523,7 +527,7 @@ plt.legend()
 
 
 
-![png](output_28_1.png)
+![png](./images/output_28_1.png)
 
 
 # **Illustration of IBL for Firemen Task**
@@ -633,7 +637,7 @@ plt.legend()
 
 
 
-![png](output_35_1.png)
+![png](./images/output_35_1.png)
 
 
 # **Illustration of IBL for Tasks from GymAI**
@@ -724,5 +728,5 @@ plt.legend()
 
 
 
-![png](output_42_1.png)
+![png](./images/output_42_1.png)
 
