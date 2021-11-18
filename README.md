@@ -84,6 +84,10 @@ plt.show()
 
 In this game, players take the role of the attacker and their goal is to score points by “hacking” computers to steal proprietary data.
 
+<p align="center">
+<img src="./images/insider.png" width = 350></img>
+</p>
+
 
 ```python
 TARGETS = [ [ { "payment": 2, "penalty":  -1, "monitored_probability": 0.22 },
@@ -534,6 +538,10 @@ plt.legend()
 ### Task description
 
 The task replicates the coordination in firefighting service wherein agents need to pick up matching items for extinguishing fire. The task is simulated in a gridworld of size $11\times 14$. Two agents located within the gridworld are tasked with locating an equipment pickup area and choosing one of the firefight items. Afterwards, they need to navigate and find the location of fire (F) to extinguish it. The task is fully cooperative as both agents are required to extinguish one fire.
+
+<p align="center">
+<img src="./images/fireman.gif" >
+</p>
 
 Install and call the FIREMAN environment
 
